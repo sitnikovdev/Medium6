@@ -7,7 +7,7 @@ DEPENDENCIES:
   - MBProgressHUD
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - MBProgressHUD
 
@@ -17,4 +17,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: a17b1f6aaeba8271b483c176bb13096a989cabb7
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.16.2

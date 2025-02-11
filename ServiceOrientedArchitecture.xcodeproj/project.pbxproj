@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -104,12 +104,12 @@
 		9E2FF72B2202330700407E87 /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2FF7242202330700407E87 /* Payment.storyboard */; };
 		9E2FF72C2202330700407E87 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2FF7252202330700407E87 /* Settings.storyboard */; };
 		9E2FF72D2202330700407E87 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2FF7262202330700407E87 /* Profile.storyboard */; };
-		DA2357D3F25307201A5E9375 /* Pods_ServiceOrientedArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983EA0B9065221C4BAAEF119 /* Pods_ServiceOrientedArchitecture.framework */; };
+		A8A8577851ECBF8DFD855CDA /* Pods_ServiceOrientedArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E969E13DFFA98E3301B87202 /* Pods_ServiceOrientedArchitecture.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		936EF7021C7D01C0247B431A /* Pods-ServiceOrientedArchitecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiceOrientedArchitecture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ServiceOrientedArchitecture/Pods-ServiceOrientedArchitecture.debug.xcconfig"; sourceTree = "<group>"; };
-		983EA0B9065221C4BAAEF119 /* Pods_ServiceOrientedArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServiceOrientedArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B491B22401EA080677D4D1 /* Pods-ServiceOrientedArchitecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiceOrientedArchitecture.release.xcconfig"; path = "Target Support Files/Pods-ServiceOrientedArchitecture/Pods-ServiceOrientedArchitecture.release.xcconfig"; sourceTree = "<group>"; };
+		2D66C9704E241A1FE7F5DE5D /* Pods-ServiceOrientedArchitecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiceOrientedArchitecture.debug.xcconfig"; path = "Target Support Files/Pods-ServiceOrientedArchitecture/Pods-ServiceOrientedArchitecture.debug.xcconfig"; sourceTree = "<group>"; };
 		9E2FF6292202323100407E87 /* ServiceOrientedArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServiceOrientedArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2FF62C2202323100407E87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E2FF6312202323100407E87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -209,7 +209,7 @@
 		9E2FF7242202330700407E87 /* Payment.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Payment.storyboard; sourceTree = "<group>"; };
 		9E2FF7252202330700407E87 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		9E2FF7262202330700407E87 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
-		B331C129E22AB5A45EA0D094 /* Pods-ServiceOrientedArchitecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServiceOrientedArchitecture.release.xcconfig"; path = "Pods/Target Support Files/Pods-ServiceOrientedArchitecture/Pods-ServiceOrientedArchitecture.release.xcconfig"; sourceTree = "<group>"; };
+		E969E13DFFA98E3301B87202 /* Pods_ServiceOrientedArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServiceOrientedArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,20 +217,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA2357D3F25307201A5E9375 /* Pods_ServiceOrientedArchitecture.framework in Frameworks */,
+				A8A8577851ECBF8DFD855CDA /* Pods_ServiceOrientedArchitecture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05DBB292F6B0BB75607CE936 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E969E13DFFA98E3301B87202 /* Pods_ServiceOrientedArchitecture.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5180B4BADC9868D6486C88F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D66C9704E241A1FE7F5DE5D /* Pods-ServiceOrientedArchitecture.debug.xcconfig */,
+				11B491B22401EA080677D4D1 /* Pods-ServiceOrientedArchitecture.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9E2FF6202202323100407E87 = {
 			isa = PBXGroup;
 			children = (
 				9E2FF62B2202323100407E87 /* ServiceOrientedArchitecture */,
 				9E2FF62A2202323100407E87 /* Products */,
-				F81DC97B94D240D310BA6BE7 /* Pods */,
-				D65F21CC530958CA275A867B /* Frameworks */,
+				5180B4BADC9868D6486C88F2 /* Pods */,
+				05DBB292F6B0BB75607CE936 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -779,23 +796,6 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
-		D65F21CC530958CA275A867B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				983EA0B9065221C4BAAEF119 /* Pods_ServiceOrientedArchitecture.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F81DC97B94D240D310BA6BE7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				936EF7021C7D01C0247B431A /* Pods-ServiceOrientedArchitecture.debug.xcconfig */,
-				B331C129E22AB5A45EA0D094 /* Pods-ServiceOrientedArchitecture.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -803,11 +803,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E2FF63B2202323200407E87 /* Build configuration list for PBXNativeTarget "ServiceOrientedArchitecture" */;
 			buildPhases = (
-				37FBFC6F31964AC65307F3D2 /* [CP] Check Pods Manifest.lock */,
+				FE1982777E5415530CBB3194 /* [CP] Check Pods Manifest.lock */,
 				9E2FF6252202323100407E87 /* Sources */,
 				9E2FF6262202323100407E87 /* Frameworks */,
 				9E2FF6272202323100407E87 /* Resources */,
-				3B1F13024757F985742E7A1F /* [CP] Embed Pods Frameworks */,
+				24FAF8B341A4ED4CEACF3E2A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -873,42 +873,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		37FBFC6F31964AC65307F3D2 /* [CP] Check Pods Manifest.lock */ = {
+		24FAF8B341A4ED4CEACF3E2A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ServiceOrientedArchitecture/Pods-ServiceOrientedArchitecture-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ServiceOrientedArchitecture/Pods-ServiceOrientedArchitecture-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ServiceOrientedArchitecture/Pods-ServiceOrientedArchitecture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE1982777E5415530CBB3194 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ServiceOrientedArchitecture-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3B1F13024757F985742E7A1F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ServiceOrientedArchitecture/Pods-ServiceOrientedArchitecture-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ServiceOrientedArchitecture/Pods-ServiceOrientedArchitecture-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1080,7 +1081,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1135,7 +1136,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1147,17 +1148,17 @@
 		};
 		9E2FF63C2202323200407E87 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 936EF7021C7D01C0247B431A /* Pods-ServiceOrientedArchitecture.debug.xcconfig */;
+			baseConfigurationReference = 2D66C9704E241A1FE7F5DE5D /* Pods-ServiceOrientedArchitecture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BUY9X6YFEW;
+				DEVELOPMENT_TEAM = K852666QND;
 				INFOPLIST_FILE = ServiceOrientedArchitecture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = PakiSoft.ServiceOrientedArchitecture;
+				PRODUCT_BUNDLE_IDENTIFIER = PakiSoft.ServiceOrientedArchitecture.2025;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1166,17 +1167,17 @@
 		};
 		9E2FF63D2202323200407E87 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B331C129E22AB5A45EA0D094 /* Pods-ServiceOrientedArchitecture.release.xcconfig */;
+			baseConfigurationReference = 11B491B22401EA080677D4D1 /* Pods-ServiceOrientedArchitecture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BUY9X6YFEW;
+				DEVELOPMENT_TEAM = K852666QND;
 				INFOPLIST_FILE = ServiceOrientedArchitecture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = PakiSoft.ServiceOrientedArchitecture;
+				PRODUCT_BUNDLE_IDENTIFIER = PakiSoft.ServiceOrientedArchitecture.2025;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
